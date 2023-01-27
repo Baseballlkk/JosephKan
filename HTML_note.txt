@@ -1,0 +1,134 @@
+1. basic element of HTML file
+	<!DOCTYPE html>: declare that the file is html5 file
+	<html></html>  : the outest element of file
+	<head></head>  : including the message of html
+	<title></title>: show the page title
+	<body></body>  : the main part of file
+
+2. element formmat
+	with content   : <start tag> content <end tag>
+	without content: <tag>
+
+3. elements
+	A. heading
+		a. from <h1></h1> to <h6></h6>
+		b. change font size: <h1 style="font-size:<size>;">
+	
+	B. paragraph
+		a. normal form: <p></p>
+		b. horzontal dividing line: <hr>
+		c. change line in the same paragraph: <br>
+		d. use the formmat user type: <pre></pre>
+	
+	C. Quotation
+		a. cite a block of paragraph:
+			<blockquote cite="<web>">
+				text
+			</blockquote>
+
+		b. short quote
+			<p><q>text</q></p>
+
+		c. abbriviation
+			<abbr title="<whole name>">text</abbr>
+
+		d. letter form
+			<address></address>
+
+		e. work title
+			<cite>text</cite>
+
+		f. flip
+			<bdo dir="rtl">content</bdo>
+
+	D. comment
+		<!--<text>-->
+
+	E. link
+		a. link to other website
+			<a href="<web>">text</a>
+		b. open the web
+			target="type"
+			type: _self, _blank, _parent
+		c. image as link
+			<a href="web">
+			<img src="figure" alt="text" style="">
+			</a>
+		d. link to mail
+			href="mailto:address"
+		e. bottom as link
+			<botton on click="document.location='<web>'"></bottom>
+		f. conditions
+			I.  a:link(not clicking)
+			II. a:visited(seen)
+			III.a:hover(mouse on link)
+			IV. a:active(looking)
+
+	F. tags
+		a. main tag
+			<tag id=<name>>text</tag>
+		b. link tag
+			<a href="#<name>">text</a>
+
+	G. image
+		a. attribution
+			I. src
+				the source of image
+			II. alt
+				the text if the image can't be display
+				
+	H. Favicon
+		<link rel="icon" type="image/x-icon" href="<img>">
+
+	I. Table
+		a. general form
+			<table>
+				<tr>
+					<th>text</th>
+				</tr>
+				<tr>
+					<td>text</td>
+				</tr>
+			</table>
+		b. frame CSS
+			table, th, td{
+				border:<thick>, <type>, <color>;
+				border-collapse: ;
+				border-radius: ;
+				border-style:  ;
+			}
+
+4. style
+	A. background color  : style="background-color:<color>;"
+	B. text color        : style="color:<color>;"
+	C. bborder color     : style="border-color:<color>;"
+	D. type of text      : style="font-family:<font-family>;"
+	E. size of text      : style="font-size:<size>;"
+	F. position of text  : style="font-align:<position>;"
+	G. title(description): title=""           : 
+	H. width, height     : style="width:<size>px;height:<size>px"
+	I. floating	     : style="float:<dir>"
+
+5. text style
+	A. bold       : <b></b>, <strong></strong>
+	B. italic     : <i></i>, <em></em>
+	C. marked     : <mark></mark>
+	D. small      : <small></small>
+	E. deleted    : <del></del>
+	F. inserted   : <ins></ins>
+	G. subscript  : <sub></sub>
+	H. superscript: <sup></sup>
+		
+
+6. color
+	A. RGB : rgb(red, green, blue)
+	B. RGBA: rgba(red, green, blue, alpha)
+	C. Hex : #rrggbb
+	D. HSL : hsl(hue, saturation, lightness)
+
+7. CSS
+	A. inline CSS  : use style
+	B. internal CSS: set a whole page, can setting color, font family, font size, border, padding, margin
+	C. external CSS: <link rel="stylesheet" href="<.ccs file>">
+	
+
