@@ -97,7 +97,44 @@
 				border-radius: ;
 				border-style:  ;
 			}
+			th{
+				text-align:<location>;
+			}
+			
+		c. table size
+			I.  set row   : style="width:<percent>"
+			II. set column: style="height:<size>" 
+		d, combine container
+			<tag colspan=<num>>
+			<tag rowspan=<num>>
 
+		e. name of table
+			<caption>text</caption>
+
+		f. padding
+			th, td{
+				padding-top   : <size>;
+				padding-bottom: <size>;
+				padding-left  : <size>;
+				padding-right : <size>;
+			}
+
+		g. form
+			I. horizontal stripe
+				tr: nth-child(even){
+					background-color: <color>;
+				}
+
+			II. vertical stripe
+				td: nth-child(even), th: nth-child(even){
+					background-color:<color>;
+				}
+
+		h. mutiple containers of the same background color
+			<colgroup>
+				<col span="<num>" style="background-color:<color>">
+			</colgroup>
+			
 4. style
 	A. background color  : style="background-color:<color>;"
 	B. text color        : style="color:<color>;"
