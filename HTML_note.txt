@@ -135,46 +135,46 @@
 				<col span="<num>" style="background-color:<color>">
 			</colgroup>
 	J. div
-                a. div is a block that can be divided with others with background-color
-                b. <div style="background-color:<color>;color:<color>;padding:<size>;"></div>
+        	a. div is a block that can be divided with others with background-color
+       		b. <div style="background-color:<color>;color:<color>;padding:<size>;"></div>
 
-        K. span
-                a. mark up a part of text
-                b. <span style="color:<color>;font-weight:<type>;">
+    	K. span
+        	a. mark up a part of text
+        	b. <span style="color:<color>;font-weight:<type>;">
 
-        L. class
-                a. often used to define the style of div element
-                b. written in style
-                c. named .<name>
+    	L. class
+        	a. often used to define the style of div element
+        	b. written in style
+        	c. named .<name>
 
-        M. id
-                a. can use in style with #
-                b. can used in booklable
+    	M. id
+        	a. can use in style with #
+    		b. can used in booklable
 
-        N. Inline Frame
-                a. <iframe src="<web>" title="<description>">
-                b. remove border: style="border:none;"
+    	N. Inline Frame
+        	a. <iframe src="<web>" title="<description>">
+        	b. remove border: style="border:none;"
 
-        O. Script
-                a. including Javascript command
-                b. <script></script>
+    	O. Script
+        	a. including Javascript command
+        	b. <script></script>
 
-        P. Head
-                a. can include: title, style, meta, link, script,base
+    	P. Head
+        	a. can include: title, style, meta, link, script,base
 
-        Q. title
-                a. defines a title in the browser toolbar
-                b. displays a title for the page in search engine-results
-                c. <title></title>
+    	Q. title
+        	a. defines a title in the browser toolbar
+        	b. displays a title for the page in search engine-results
+        	c. <title></title>
 
-        R. link
-                a. usually used to link external CSS
+    	R. link
+        	a. usually used to link external CSS
 
-        S. Meta
-                a. set character     : <meta charset="">
-                b. set keywords      : <meta name="keywords", content="">
-                c. description of web: <meta name="description" content="">
-                d. set author
+    	S. Meta
+        	a. set character     : <meta charset="">
+        	b. set keywords      : <meta name="keywords", content="">
+        	c. description of web: <meta name="description" content="">
+       		d. set author
 
 
 
