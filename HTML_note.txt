@@ -175,8 +175,35 @@
         	b. set keywords      : <meta name="keywords", content="">
         	c. description of web: <meta name="description" content="">
        		d. set author
-
-
+	
+	T. base
+		a. define the relative URL
+	
+	U. list
+		a. no ordered list:
+			<ul>
+				<li>text</li>
+			</ul>
+		b. ordered list
+			<ol>
+				<li>text</li>
+			</ol>
+		c. description list
+			<dl>
+				<dt></dt>
+				<dd></dd>
+			</dl>
+	
+	V. responsive Wed Design
+		a. setting viewport : <meta name="viewport" content="width=device-width, initial-scale=1.0"
+		b. make image fit in:<style="max-width:100%;"
+		c. different image for different scale: 
+			<picture>
+				<source srcset="<image>" media="(max-width: <size>)">
+			</picture>
+		d. responsive text: use unit of vw, 1vw=1% of viewport.
+	W. var
+		used to show test as variables
 
 4. style
 	A. background color  : style="background-color:<color>;"
@@ -191,14 +218,15 @@
 
 5. text style
 	A. bold       : <b></b>, <strong></strong>
-	B. italic     : <i></i>, <em></em>
+	B. italic     : <i></i>, <em></em>, <var></var>
 	C. marked     : <mark></mark>
 	D. small      : <small></small>
 	E. deleted    : <del></del>
 	F. inserted   : <ins></ins>
 	G. subscript  : <sub></sub>
 	H. superscript: <sup></sup>
-		
+	I. monospace  : <kbd></kbd>, <samp</samp>
+
 
 6. color
 	A. RGB : rgb(red, green, blue)
@@ -211,4 +239,9 @@
 	B. internal CSS: set a whole page, can setting color, font family, font size, border, padding, margin
 	C. external CSS: <link rel="stylesheet" href="<.ccs file>">
 	
+8. Semantic element
+	A. section
+		common used in chapter, introduction, new item, contact info.
 
+	B. article
+		common used in user comment, newspaper, product, blog
