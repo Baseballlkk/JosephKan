@@ -27,3 +27,24 @@
 	F. attach  : background-attachment: 
 		a. fixed : stay at the same position
 		b. scroll: the image scroll as the page scroll
+5. border 
+	A. border style: border-style=""
+		a. dotted
+		b. dashed
+		c. solid 
+		d. double
+		e. groove
+		f. ridge
+		g. inset
+		h. outset
+		i. none
+		j. hidden
+	B. border width
+		a. pre-define      : thin, medium, thick
+		b. specific width  : border-width:<size>;
+	C. border color:
+		a. uniform border : border-color: <color>;
+		b. specific border: border-color: <top color> <right color> <bottom color> <left color>
+
+	D. round border: border-radius: <size> px;
+	E. 
