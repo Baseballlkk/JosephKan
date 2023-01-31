@@ -1,0 +1,29 @@
+1. Syntax
+	<selector>{property:value;}
+
+2. Selectors
+	A. used to define HTML element
+	B. element selector  : based on element
+	C. id selector       : based on the id define in the page, the id must follow with #.
+	D. class selector    : 
+		a. based on class define in page, must follow by .
+		b. if the class have element forward, the class will only work on the selected element.
+		c. An element can have two class at the same time.
+	E. universal selector: written in *, then all element is selected.
+	F. Group selector    : select a type of element
+
+3. comment
+	A. CSS comment : /**/
+	B. HTML comment: <!---->
+
+4. background
+	A. color   : background-color:<color>;
+	B. opacity : opacity is how the background transparent
+	C. image   : background-image: url("<link>")
+	D. repeat  : background-repeat: 
+		a. repeat-x: horizontally
+		b. no-repeat: no repeat
+	E. position: backgound-position: <position>
+	F. attach  : background-attachment: 
+		a. fixed : stay at the same position
+		b. scroll: the image scroll as the page scroll
